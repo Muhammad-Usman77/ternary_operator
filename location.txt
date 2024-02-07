@@ -1,0 +1,8 @@
+void main() {
+  // int? number = 3;
+  // int newNumber = number ?? 2;
+  int? number = null;
+  int newNumber = number != null ? number : 0;
+  print(newNumber);
+}
+//ternary operator use for the place of if else like for single line of code
